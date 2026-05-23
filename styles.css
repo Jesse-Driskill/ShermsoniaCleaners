@@ -297,6 +297,17 @@ section[id] {
 .price-panel {
   border-color: rgba(229, 31, 27, 0.42);
   padding: 1.35rem;
+  transition:
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+.price-panel:hover,
+.price-panel:focus-within {
+  border-color: rgba(229, 31, 27, 0.72);
+  box-shadow: 0 26px 78px rgba(43, 61, 68, 0.16);
+  transform: translateY(-0.25rem);
 }
 
 .panel-note {
@@ -345,13 +356,14 @@ section[id] {
 }
 
 .footer-link {
-  border: 1px solid rgba(255, 253, 246, 0.22);
+  border: 1px solid rgba(22, 143, 179, 0.38);
   border-radius: 9999px;
-  color: rgba(255, 253, 246, 0.82);
-  padding: 0.55rem 0.9rem;
+  color: #28343a;
+  font-weight: 700;
+  padding: 0.7rem 1.05rem;
 }
 
 .footer-link:hover {
-  border-color: rgba(255, 253, 246, 0.65);
-  color: #fff4d6;
+  border-color: #168fb3;
+  color: #006d92;
 }

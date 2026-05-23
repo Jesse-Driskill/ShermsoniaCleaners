@@ -22,5 +22,5 @@ if (menuToggle && mobileMenu) {
 const year = new Date().getFullYear();
 document.querySelector("footer").insertAdjacentHTML(
   "beforeend",
-  `<p class="mx-auto mt-8 max-w-7xl px-4 text-xs text-paper/60 sm:px-6 lg:px-8">&copy; ${year} Shermsonia Cleaners & Laundromat.</p>`
+  `<p class="mx-auto mt-8 max-w-7xl px-4 text-xs text-ink/80 sm:px-6 lg:px-8">&copy; ${year} Shermsonia Cleaners & Laundromat.</p>`
 );
